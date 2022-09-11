@@ -1,0 +1,24 @@
+{
+  "name": "sed-command-builder-2100",
+  "version": "1.0.0",
+  "description": "A web app to build a sed command",
+  "homepage": "https://github.com/kc97ble/sed-command-builder-2100#readme",
+  "bugs": {
+    "url": "https://github.com/kc97ble/sed-command-builder-2100/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kc97ble/sed-command-builder-2100.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "sort-package-json": "sort-package-json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sort-package-json": "^1.57.0",
+    "typescript": "^4.8.3"
+  }
+}
