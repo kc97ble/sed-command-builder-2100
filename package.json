@@ -10,14 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/kc97ble/sed-command-builder-2100.git"
   },
-  "license": "ISC",
-  "author": "",
-  "main": "index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Kien Nguyen",
+    "email": "kc97ble@gmail.com"
+  },
   "scripts": {
+    "build": "parcel build src/index.html",
+    "clean": "rimraf dist",
+    "dev": "parcel src/index.html",
     "sort-package-json": "sort-package-json"
   },
-  "dependencies": {},
   "devDependencies": {
+    "parcel": "^2.7.0",
+    "rimraf": "^3.0.2",
     "sort-package-json": "^1.57.0",
     "typescript": "^4.8.3"
   }
